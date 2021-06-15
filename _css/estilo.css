@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    color:#000;
+    font: 12px Verdana, sans-serif;
+    background-color: gray;
+}
+
+        
+#menul {
+   width: 200px;
+   padding: px;
+   height:0px;
+   background-color:rgba(106, 117, 165, 0.445);
+   float:right;
+
+}
+    
+#menul ul li {
+	margin: 0;
+    padding: 0px;
+	border-bottom: 1px solid #CCC;
+	text-align: right;
+	list-style-type: none;
+}
+
+#menul a:link {
+    background: #666262;
+    color: rgb(207, 202, 202);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+}
+
+#menul a:hover {
+	background: #2f2f30;
+    color: rgb(96, 98, 102);
+}
+
+a {
+    color: #fff;
+}
+
+.corpo{
+    width: 1560px;
+    margin: auto;
+}
+.conteudo{
+    margin-top: 20px;
+    display:table;
+}
+.imagem{
+    margin-left: 10px;
+    display:table-cell;
+    float:left;
+}
+.texto{
+    margin-left:10px;
+    display:table-cell;
+    float:left;
+    width:500px;
+
+}
+#fundooceano{
+    width:100vh;
+    height:100vh;
+    background:url('../images/home/oceanofundo.jpg');
+    background-size: cover;
+
+}
